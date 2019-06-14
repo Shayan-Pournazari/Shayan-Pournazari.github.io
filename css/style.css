@@ -12,6 +12,11 @@ body{
     overflow:hidden;
 }
 
+header ul{
+    margin:0;
+    padding:0;
+
+}
 /*header*/
 header{
     background:rgb(131, 13, 13);
@@ -27,15 +32,70 @@ header a{
     font-size:16px;
 }
 
-header ul{
-    margin:;
-    padding:0;
-
-}
 
 header li{
     
     display:inline;
     padding:0 20px 0 20px ;
 
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+ header nav{
+     float:right;
+     margin-top: 10px;
+ }
+header .highlight, header .current a{
+    color:blue;
+    font-Weight:bold;
+}
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+/* showcase     in the minute 35 mark is wher this takes place untill min 40ish
+#showcase{
+    min-height: 400px;
+    backgorund:url('../img/comp.jpg') no-repeat 0 -400px;
+    tex-align:center;
+    color:#ffffff;
+
+}
+*/
+#showcase h1{
+    margin-top:100px;
+    front-size:55px;
+    margin-bottom:10px;
+
+}
+
+
+/* pic */
+#boxthings{
+    margin-top:20px;
+}
+#boxthings .box{
+ float:right;
+ text-align: left;
+ width: 30%;
+padding:10px;
+
+}
+#boxthings .box img{
+    width:90px;
+}
+ 
+footer{
+    padding:20px;
+    marign-top:20px;
+    color:#ffffff;
+    background-color:rgb(131, 13, 13);
+    text-align: center;
 }
